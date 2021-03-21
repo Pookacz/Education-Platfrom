@@ -6,10 +6,10 @@
 
 
 Helps to learn how to:
-- addition
-- subtraction
-- multiplication
-- division
+- add
+- subtract
+- multiply
+- divide
 
 
 After studying, you can take one of the exams
