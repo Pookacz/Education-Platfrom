@@ -1,0 +1,147 @@
+html, body{
+    margin: 0;
+    border: 0;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+/* Dla komputerów */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #af0d0d;
+    box-shadow: 10px 10px 15px lightgray;
+}
+footer{
+    text-align: center;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    /* padding: 20px; */
+    clear:both; 
+    height: 20px;
+}
+ol{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    
+}
+li#logo{
+    float: left;
+    height: 40px;
+    margin: 10px 0px 10px 40px;
+    border: 0;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+li#logo:hover{
+    color: #ffffff;
+    background-color: #B10606;
+}
+li{
+    float: right;
+    /* margin: 22.5px 15px 25px 15px; */
+    margin: 18px 5px 18px 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #B10606;
+    display: inline-block;
+    cursor: pointer;
+    /* height: 30px; */
+}
+li#last{
+    margin-right: 75px;
+    border-radius: 7.5px;
+    background-color: #FFFFFF;
+    color: #B10606;
+}
+li:hover{
+    border-radius: 7.5px;
+    background-color: #850808;
+    color: #ffffff;
+}
+li#last:hover{
+    background-color: #03C445;
+    color: #ffffff;
+}
+.wrong{
+    color: #B10606;
+    font-weight: bold;
+}
+.correct{
+    color:rgb(11, 194, 11);
+    font-weight: bold;
+}
+.elements{
+    padding: 15px 10px 15px 20px;
+    border-bottom: 1px solid lightgray;
+    font-size: 20px;
+}
+button{
+    height: 34px;
+    font-size: 20px;
+    width: 200px;
+    padding: 0;
+    margin: 50px 10px 80px 10px;
+    background-color: #B10606;
+    border-radius: 10px;
+    color: #ffffff;
+    outline: 0;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 10px 10px 15px lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+button:hover{
+    background-color: #03C445;
+}
+input{
+    width: 50px;
+    height: 30px;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    outline: 0;
+    font-family: 'Manrope', sans-serif;
+}
+#mainContainer{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-top: -80px;
+    margin-bottom: -41px;
+}
+#container{
+    height: 100%;
+    padding-top: 150px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+.equation{
+    font-size: 60px;
+    font-family: 'Manrope', sans-serif;
+}
+.examText{
+    font-size: 30px;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+.startImg{
+    width: 65%;
+    padding: 40px;
+}
+.slogan{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-family: 'Manrope', sans-serif;
+}
